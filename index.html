@@ -5,5 +5,48 @@
 </head>
 
 <body>
+    <div class="header">
+        <h1>Weather Forecast App</h1>
+    </div>
+    <div class="masterBodyDiv">
+        <div class="searchBarDiv">
+            <h3>Lookup the forecast for:</h3>
+            <input type="text" class="citySearch" id="citySearch">
+            <button class="submit" id="citySearchButton"></button>
+        </div>
+
+        <div class="forecastDetailsDiv">
+            <div class="currentWeatherDiv">
+                <h2 class="currentCity">Viewing forecast for: </h2>
+                    <h3 id="currentTemp">Temperature: </h3>
+                    <h3 id="currentHumidity">Humidity: </h3>
+                    <h3 id="currentWindSpd">Wind Speed:</h3>
+                    <h3 id="currentUV">UV Index</h3>
+            </div>
+            <div class="5DayForecastDiv">
+                <div class="5DayCards">
+                    <p id="1FromNowTemp"></p>
+                    <p id="1FromNowHumidity"></p>
+                </div>
+                <div class="5DayCards">
+                    <p id="2FromNowTemp"></p>
+                    <p id="2FromNowHumidity"></p>
+                </div>
+                <div class="5DayCards">
+                    <p id="3FromNowTemp"></p>
+                    <p id="3FromNowHumidity"></p>
+                </div>
+                <div class="5DayCards">
+                    <p id="4FromNowTemp"></p>
+                    <p id="4FromNowHumidity"></p>
+                </div>
+                <div class="5DayCards">
+                    <p id="5FromNowTemp"></p>
+                    <p id="5FromNowHumidity"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
