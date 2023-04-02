@@ -12,18 +12,19 @@
         <div class="searchBarDiv">
             <h3>Lookup the forecast for:</h3>
             <input type="text" class="citySearch" id="citySearch">
-            <button class="submit" id="citySearchButton"></button>
+            <button class="submit" id="citySearchButton">Search!</button>
         </div>
 
         <div class="forecastDetailsDiv">
             <div class="currentWeatherDiv">
-                <h2 class="currentCity">Viewing forecast for: </h2>
-                    <h3 id="currentTemp">Temperature: <span class="currentTempValue"></span></h3>
-                    <h3 id="currentHumidity">Humidity: <span class="currentHumidityValue"></span></h3>
-                    <h3 id="currentWindSpd">Wind Speed:<span class="currentWindValue"></span></h3>
-                    <h3 id="currentUV">UV Index<span class="currentUVValue"></span></h3>
+                <h2 class="currentCity">Viewing forecast for: <span class="currentCityValue"></span> </h2>
+                    <h3 id="currentTemp">Temperature: <span id="currentTempValue"></span></h3>
+                    <h3 id="currentHumidity">Humidity: <span id="currentHumidityValue"></span></h3>
+                    <h3 id="currentWindSpd">Wind Speed:<span id="currentWindValue"></span></h3>
+                    <h3 id="currentUV">UV Index<span id="currentUVValue"></span></h3>
             </div>
             <div class="5DayForecastDiv">
+                <h2>5 Day Forecast</h2>
                 <div class="5DayCards">
                     <p id="1FromNowTemp"></p>
                     <p id="1FromNowHumidity"></p>
